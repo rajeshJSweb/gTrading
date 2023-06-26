@@ -1,0 +1,63 @@
+[
+    {
+        "id":1,
+        "currency":"BTC",
+        "price":364587,
+        "change":"5.00",
+        "marketValue":583530008913
+    },
+    
+    {
+        "id":2,
+        "currency":"ETHEthereum",
+        "price":187850,
+        "change":"-3.00",
+        "marketValue":583530008913
+    },
+    
+    {
+        "id":3,
+        "currency":"USDTTether",
+        "price":1.00,
+        "change":"0.05",
+        "marketValue":583530008913
+    },
+    
+    {
+        "id":4,
+        "currency":"BNBBNB",
+        "price":250.00,
+        "change":"-2.50",
+        "marketValue":583530008913
+    },
+    
+    {
+        "id":5,
+        "currency":"USDCUSD Coin",
+        "price":30.50,
+        "change":"1.00",
+        "marketValue":583530008913
+    },
+    {
+        "id":6,
+        "currency":"USDCUSD Coin",
+        "price":30.50,
+        "change":"1.00",
+        "marketValue":583530008913
+    },
+    {
+        "id":7,
+        "currency":"USDCUSD Coin",
+        "price":30.50,
+        "change":"1.00",
+        "marketValue":583530008913
+    },
+    {
+        "id":8,
+        "currency":"USDCUSD Coin",
+        "price":30.50,
+        "change":"1.06",
+        "marketValue":583530008913
+    }
+    
+]
