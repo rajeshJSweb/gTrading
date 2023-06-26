@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 const Services = () => {
     const {services}= useContext(myContext)
     return (
-        <div className='mx-20'>
+        <div className='mx-20 relative z-0' style={{zIndex:0}}>
             <Swiper
             modules={[Navigation, Pagination, Autoplay, A11y,FreeMode]}
             spaceBetween={20}

@@ -4,6 +4,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Main from './layout/Main';
 import Home from './components/Home/Home';
 import Clients from './components/Home/Clients';
+import Login from './User/Login';
+import Registration from './User/Registration';
 
 const App = () => {
   const router = createBrowserRouter([
@@ -16,6 +18,14 @@ const App = () => {
           path:'/',
           loader:()=> fetch('currencyData.json'),
           element:<Home/>
+        },
+        {
+          path:'/login',
+          element:<Login/>
+        },
+        {
+          path:'/registration',
+          element:<Registration/>
         }
       ]
     }

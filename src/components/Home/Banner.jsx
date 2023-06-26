@@ -5,7 +5,7 @@ import image3 from './../../../src/utilities/img/image3.jpg'
 
 const Banner = () => {
     return (
-        <div className='flex h-[500px]'>
+        <div className='flex h-[500px] pt-[200px] mb-24'>
             <div className='w-6/12 flex flex-col justify-center ml-20 gap-5'>
                     <h1 className='text-[35px] font-semibold'>Your all-in-one <span className='text-purple-700 uppercase text-[42px]'>crypto platform</span> to buy, sell, trade, hold, and <span className='uppercase'>earn</span> </h1>
                     <p className='font-semibold text-purple-700 text-lg'>Since 2013, we've guided millions of global users on their digital assets journey1</p>

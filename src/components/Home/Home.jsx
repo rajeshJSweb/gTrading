@@ -7,6 +7,9 @@ import BuyNow from './BuyNow';
 import About from './About';
 import Clients from './Clients';
 import Media from './Media';
+import Featured from './Featured';
+import Massege from './Massege';
+import Join from './Join';
 
 const Home = () => {
     const currencies = useLoaderData()
@@ -19,6 +22,9 @@ const Home = () => {
             <About/>
             <Clients />
             <Media/>
+            <Featured/>
+            <Massege/>
+            <Join/>
         </div>
     );
 };

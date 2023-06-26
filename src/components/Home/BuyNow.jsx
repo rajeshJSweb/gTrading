@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {FaCcVisa} from 'react-icons/fa'
 import {BiLogoMastercard} from 'react-icons/bi'
 import { FaBitcoin, FaEthereum } from 'react-icons/fa';
-import { RiExchangeDollarLine } from 'react-icons/ri';
+
 
 
 const BuyNow = () => {

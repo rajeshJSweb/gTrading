@@ -1,32 +1,16 @@
-import React, { useState } from 'react';
-import image1 from './../../utilities/img/forbes.png'
-import image2 from './../../utilities/img/investo.png'
-import image3 from './../../utilities/img/kaiko.png'
+import React from 'react';
+import image1 from './../../utilities/img/investo.png'
+import image2 from './../../utilities/img/bloombarg.png'
+import image3 from './../../utilities/img/hedgeweek.png'
 
 const Media = () => {
-    const [mouse, setMouse]= useState(false)
-
-    const handleIcon = ()=>{
-        if(mouse){
-            setMouse(false)
-        }
-        else{
-            setMouse(true)
-        }
-    }
-
     return (
-        <div>
-            <div className='flex gap-2 w-full'>
-                <div className='w-4/12'>
-                    <img className='w-[50%]' src={image1} alt="" />
-                </div>
-                <div className='w-4/12'>
-                    <img className='w-[50%]' src={image2} alt="" />
-                </div>
-                <div className='w-4/12'>
-                    <img className='w-[50%]' src={image3} alt="" />
-                </div>
+        <div className='my-20'>
+            <h1 className='text-center text-3xl text-slate-700 font-semibold'>…and positive media coverage</h1>
+            <div className='w-full flex gap-20 justify-center mt-10'>
+                <img className='w-[20%] shadow-sm p-3 rounded-xl' src={image1} alt="" />
+                <img className='w-[20%] shadow-sm p-3 rounded-xl' src={image2} alt="" />
+                <img className='w-[20%] shadow-sm p-3 rounded-xl' src={image3} alt="" />
             </div>
         </div>
     );

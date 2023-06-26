@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {BsFacebook,BsGridFill,BsArrowUpShort} from 'react-icons/bs'
 import {FaFacebookMessenger,FaTiktok} from 'react-icons/fa'
@@ -7,7 +7,7 @@ import {IoIosArrowUp} from 'react-icons/io'
 
 const Header = () => {
     return (
-        <div className='bg-gradient-to-r from-slate-50'>
+        <div className='bg-gradient-to-r fixed w-full flex flex-col justify-center items-center from-purple-50 to-purple-50 bg-opacity-10 z-10' style={{zIndex:1}}>
             <div className='flex justify-between fixed w-full'>
                 <div className='w-4/12 flex justify-center items-center text-2xl gap-5'>
                     <BsFacebook/>
@@ -20,8 +20,8 @@ const Header = () => {
                 </div>
                 <div className='w-4/12 flex justify-center items-center font-semibold'>
                     <div className='flex gap-5'>
-                        <Link className='bg-slate-300 rounded-md py-2 px-5 hover:bg-purple-800 hover:text-purple-100'>Login</Link>
-                        <Link className='bg-purple-700 text-white rounded-md py-2 px-5 hover:bg-purple-800 hover:text-purple-100'>New User?</Link>
+                        <Link to='/login' className='bg-slate-300 rounded-md py-2 px-5 hover:bg-purple-800 hover:text-purple-100'>Login</Link>
+                        <Link to='registration' className='bg-purple-700 text-white rounded-md py-2 px-5 hover:bg-purple-800 hover:text-purple-100'>New User?</Link>
                     </div>
                 </div>
             </div>
