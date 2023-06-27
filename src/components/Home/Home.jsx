@@ -15,6 +15,23 @@ const Home = () => {
     const currencies = useLoaderData()
     return (
         <div>
+              <style>
+                    {`
+                    /* Custom scrollbar styles */
+                    ::-webkit-scrollbar {
+                        width: 5px;
+                    }
+                    
+                    ::-webkit-scrollbar-track {
+                        background-color: #F1F1F1;
+                    }
+                    
+                    ::-webkit-scrollbar-thumb {
+                        background-color: #888;
+                        border-radius: 0.8em;
+                    }
+                    `}
+                </style>
             <Banner/>
             <Services/>
             <Table currencies={currencies}/>

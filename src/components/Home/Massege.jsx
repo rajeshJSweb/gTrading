@@ -5,24 +5,6 @@ const Massege = () => {
         <div className='my-10 flex justify-center'>
             <div className='w-6/12 border-2 border-slate-100 rounded-xl shadow-sm h-[400px] overflow-y-scroll'
             >
-                <style>
-                    {`
-                    /* Custom scrollbar styles */
-                    ::-webkit-scrollbar {
-                        width: 5px;
-                    }
-                    
-                    ::-webkit-scrollbar-track {
-                        background-color: #F1F1F1;
-                    }
-                    
-                    ::-webkit-scrollbar-thumb {
-                        background-color: #888;
-                        border-radius: 0.8em;
-                    }
-                    `}
-                </style>
-
                 <div>
                     <h1 className='p-4 text-2xl text-slate-600 font-semibold'>gTrading Made It Easy to Work and Earn With Crypto</h1>
                 <p className='px-4'>gTrading is an ecosystem of products and services that make it easy for individuals to work and earn with crypto. With a positive reputation and a wide range of offerings, gTrading is a trusted platform in the decentralized economy.
