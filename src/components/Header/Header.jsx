@@ -13,7 +13,6 @@ const Header = () => {
     const [childHover, setChildHover]= useState(true)
     const [mousePosition, setMousePosition]= useState({x:0, y:0})
 
-
     const handleMouseOver = ()=>{
         setClick(false)
     }
@@ -39,13 +38,13 @@ const Header = () => {
 
     const handleMouseMove =()=>{
             setMousePosition({x:e.clientX, y:e.clientY})
-            if(mousePosition.y > e.clientY){
-                setClick(true)
+            if(mousePosition.x< e.clientX){
+                setClick(false)
             }
     }
 
     return (
-        <div className='bg-gradient-to-r fixed w-full flex flex-col justify-center items-center from-purple-50 to-purple-50 bg-opacity-10 z-10' style={{zIndex:1}}>
+        <div className='hidden md:block bg-gradient-to-r fixed w-full flex-col justify-center items-center from-purple-50 to-purple-50 bg-opacity-10 z-10' style={{zIndex:1}}>
             <div className='flex justify-between fixed w-full'>
                 <div className='w-4/12 flex justify-center items-center text-2xl gap-5'>
                     <BsFacebook/>
